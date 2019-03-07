@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/arpit73/tensorHack-frontEnd/precache-manifest.614427e425c78fa367862aa3f9481239.js"
+  "/arpit73/tensorHack/precache-manifest.18894e0a69600d39fd7e6e1187d8ab9d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/arpit73/tensorHack-frontEnd/index.html", {
+workbox.routing.registerNavigationRoute("/arpit73/tensorHack/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
