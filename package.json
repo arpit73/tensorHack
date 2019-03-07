@@ -8,7 +8,7 @@
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
   },
-  "homepage": "https://github.com/arpit73/tensorHack-frontEnd",
+  "homepage": "https://github.com/arpit73/tensorHack",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
